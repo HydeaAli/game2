@@ -1,0 +1,14 @@
+let action1= alert("Welcome Sleepy Panda!");
+let wec= alert("You wake up in the forest with bamboo in you hannd. You decide go on an adventure. Who whould you like to take with you?");
+let Friends = prompt ("You can't go on an adventure without a firend! Choose a friend to start your adventure with: 'Kenny the Koala', Foxy the Fox, or go alone?");
+
+function GameMode (){
+  if (Friends== "Intel Koala"){
+    alert("You decide to choose Kenny to go on an adventure! However Kenny Doesn't want to go with you. What do you want to do now?");
+    }
+    else if (Friends=="Foxy Fox"){
+        alert("You decided to choose Foxy to got on an adventure! Foxy agrees to go on the adventure with you! Where do you want to go?");
+    }
+    else{
+        alert("You decided to choose to go alone on your adventure! Where do you want to go?");
+    }
